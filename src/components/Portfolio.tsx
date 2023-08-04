@@ -23,12 +23,16 @@ const Portfolio = ({ language }) => {
               <ProjectDescription>{item.responsive}</ProjectDescription>
 
               <ButtonWrapper>
-                <Button href={item.link} target="_blank">
-                  Visit Web
-                </Button>
-                <Button href={item.gitHubLink} target="_blank">
-                  See Code
-                </Button>
+                {item.link && (
+                  <Button href={item.link} target="_blank">
+                    Visit Web
+                  </Button>
+                )}
+                {item.gitHubLink && (
+                  <Button href={item.gitHubLink} target="_blank">
+                    See Code
+                  </Button>
+                )}
               </ButtonWrapper>
             </ProjectCard>
           ))}

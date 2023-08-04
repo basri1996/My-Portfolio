@@ -15,6 +15,12 @@ import image14 from "./assets/images/guessthenumber.png";
 import image15 from "./assets/images/formvalidation.png";
 import image16 from "./assets/images/reactcalculator.png";
 import image17 from "./assets/images/tremap.png";
+import image18 from "./assets/images/add-goal.png";
+import image19 from "./assets/images/expense.png";
+import image20 from "./assets/images/favorite-place.png";
+import image21 from "./assets/images/native-authentication.png";
+import image22 from "./assets/images/native-game.png";
+import image23 from "./assets/images/navigation.png";
 
 export const data = [
   {
@@ -184,7 +190,60 @@ export const data = [
       "Tremap is an innovative mobile application designed to facilitate tree mapping and promote environmental awareness. With Tremap, users can actively participate in creating a virtual map of trees, making a positive impact on their surroundings and contributing to the conservation of the environment.Tremap allows users to register trees .",
     link: "https://www.tremap.com/",
     language: "React Native",
-    gitHubLink: "",
+    responsive: "Yes",
+  },
+  {
+    title: "Add Goal",
+    image: image18,
+    description:
+      "The Add Goal app developed in React Native utilizes navigation and native hooks to manage a list of goals with features for adding, marking as done, and deleting.In summary, App has navigation and effective utilization of native hooks to manage a list of goals. It empowers users to add, mark as done, and delete goals.",
+    language: "React Native",
+    gitHubLink: "https://github1s.com/basri1996/Add-Goal",
+    responsive: "Yes",
+  },
+  {
+    title: "Expenses App",
+    image: image19,
+    description:
+      "The Expenses App developed in React Native is designed to assist users in tracking and managing their expenses efficiently. The app incorporates various features and functionalities to provide a comprehensive expense management solution. It an efficient solution for recording,categorizing, analyzing, and organizing expenses.",
+    language: "React Native",
+    gitHubLink: "https://github1s.com/basri1996/Expenses-ReactNative",
+    responsive: "Yes",
+  },
+  {
+    title: "Favorite Places",
+    image: image20,
+    description:
+      "Favorite Places is a user-friendly mobile application that allows users to curate a collection of their cherished locations by adding photos, titles, and associated geographical information. The app seamlessly integrates with maps to provide a visually appealing and interactive experience. Favorite Places is a captivating app ",
+    language: "React Native",
+    gitHubLink: "https://github1s.com/basri1996/FavoritePlaces-ReactNative",
+    responsive: "Yes",
+  },
+  {
+    title: "Native Authentication",
+    image: image21,
+    description:
+      "Native Authentication with Token refers to the process of implementing user authentication in a mobile app using native authentication methods, such as biometric authentication fingerprint or face recognition, in combination with the usage of tokens for secure user sessions. This approach enhances both the security and user experience of the application",
+    language: "React Native",
+    gitHubLink: "https://github1s.com/basri1996/User-Auth-ReactNative",
+    responsive: "Yes",
+  },
+  {
+    title: "Guess The Number",
+    image: image22,
+    description:
+      "Number Guesser is an engaging and interactive mobile game developed in React Native. In this game, the app takes on the role of the guesser, and the player's task is to think of a number within a specified range. The app then employs a strategic approach to intelligently guess the player's number based on the feedback provided by the player. ",
+    language: "React Native",
+    gitHubLink: "https://github1s.com/basri1996/GuessNumber-Native",
+    responsive: "Yes",
+  },
+  {
+    title: "Meals App",
+    image: image23,
+    description:
+      "Meals Platform with Native Navigation is a dynamic and user-centric mobile application developed in React Native. This platform aims to provide users with a seamless and intuitive experience for discovering, exploring, and managing various meals and recipes. Leveraging native navigation capabilities,the app ensures smooth transitions and efficient navigation between different sections.",
+    language: "React Native",
+    gitHubLink: "https://github1s.com/basri1996/Meal-App",
     responsive: "Yes",
   },
 ];

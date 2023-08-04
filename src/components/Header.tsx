@@ -38,7 +38,7 @@ function Header() {
         <Rect src={rect} />
       </RectDiv>
       {visible && (
-        <Menu>
+        <Menu visible={visible}>
           <StyleLink to="/">
             <ManuTitle
               onClick={() => {
@@ -82,7 +82,7 @@ function Header() {
 }
 
 export default Header;
-const Menu = styled.div`
+const Menu = styled.div<{ visible: boolean }>`
   width: 100%;
   height: 300px;
   background-color: #ffffb5;
@@ -95,6 +95,7 @@ const Menu = styled.div`
   align-items: center;
   flex-direction: column;
   gap: 10px;
+
   @media (min-width: 850px) {
     display: none;
   }
@@ -146,6 +147,7 @@ const LogoText = styled.h1`
   line-height: 30px;
   letter-spacing: 2px;
   color: white;
+
   :hover {
     color: #c0eef2;
     cursor: pointer;
@@ -164,6 +166,7 @@ const PageTitle = styled.h1`
   font-weight: 500;
   letter-spacing: 1px;
   color: white;
+
   :hover {
     color: #c0eef2;
     cursor: pointer;
@@ -186,6 +189,6 @@ const TitileDiv = styled.div`
 const StyleLink = styled(Link)`
   text-decoration: none;
   display: flex;
-  justify-content: center;
+
   align-items: center;
 `;
