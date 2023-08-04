@@ -21,6 +21,7 @@ import image20 from "./assets/images/favorite-place.png";
 import image21 from "./assets/images/native-authentication.png";
 import image22 from "./assets/images/native-game.png";
 import image23 from "./assets/images/navigation.png";
+import image24 from "./assets/images/clock.png";
 
 export const data = [
   {
@@ -122,6 +123,16 @@ export const data = [
     language: "React Js",
     gitHubLink: "https://github1s.com/basri1996/Preview-Card",
     responsive: "Yes",
+  },
+  {
+    title: "Clock Project",
+    image: image24,
+    description:
+      "The Time Zone Clock with Date Information is a web application built using React.js that displays real-time information about the current time in different time zones, along with additional date-related details. This project serves as a useful tool for users who need to keep track of time across various locations and stay informed about the corresponding dates.",
+    link: "https://genuine-longma-03caf2.netlify.app/",
+    language: "React Js",
+    gitHubLink: "https://github1s.com/basri1996/Clock-React",
+    responsive: "No",
   },
   {
     title: "Guess Number",
