@@ -10,6 +10,7 @@ function Card() {
           <Infos>Surname: Basiladze</Infos>
           <Infos>Birthday: 1996/09/16</Infos>
           <Infos>Number: 571554747</Infos>
+          <Infos>Mail: datuni32@gmail.com</Infos>
         </MainInfo>
       </LeftDiv>
       <RightDiv>
