@@ -196,7 +196,7 @@ export const data = [
     title: "Add Goal",
     image: image18,
     description:
-      "The Add Goal app developed in React Native utilizes navigation and native hooks to manage a list of goals with features for adding, marking as done, and deleting.In summary, App has navigation and effective utilization of native hooks to manage a list of goals. It empowers users to add, mark as done, and delete goals.",
+      "The Add Goal app developed in React Native utilizes navigation and native hooks to manage a list of goals with features for adding, marking as done, and deleting.In summary, App has navigation and effective utilization of native hooks to manage a list of goals. It empowers users to add, mark as done, and delete goals. React Native Starter Project",
     language: "React Native",
     gitHubLink: "https://github1s.com/basri1996/Add-Goal",
     responsive: "Yes",
@@ -205,7 +205,7 @@ export const data = [
     title: "Expenses App",
     image: image19,
     description:
-      "The Expenses App developed in React Native is designed to assist users in tracking and managing their expenses efficiently. The app incorporates various features and functionalities to provide a comprehensive expense management solution. It an efficient solution for recording,categorizing, analyzing, and organizing expenses.",
+      "The Expenses App developed in React Native is designed to assist users in tracking and managing their expenses efficiently. The app incorporates various features and functionalities to provide a comprehensive expense management solution. It an efficient solution for recording,categorizing, analyzing, and organizing expenses.Interface of this app is Cross",
     language: "React Native",
     gitHubLink: "https://github1s.com/basri1996/Expenses-ReactNative",
     responsive: "Yes",
@@ -214,7 +214,7 @@ export const data = [
     title: "Favorite Places",
     image: image20,
     description:
-      "Favorite Places is a user-friendly mobile application that allows users to curate a collection of their cherished locations by adding photos, titles, and associated geographical information. The app seamlessly integrates with maps to provide a visually appealing and interactive experience. Favorite Places is a captivating app ",
+      "Favorite Places is a user-friendly mobile application that allows users to curate a collection of their cherished locations by adding photos, titles, and associated geographical information. The app seamlessly integrates with maps to provide a visually appealing and interactive experience. Favorite Places is a captivating app Which has good options for users. ",
     language: "React Native",
     gitHubLink: "https://github1s.com/basri1996/FavoritePlaces-ReactNative",
     responsive: "Yes",
