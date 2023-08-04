@@ -20,7 +20,7 @@ const Portfolio = ({ language }) => {
               <Label>Description</Label>
               <ProjectDescription>{item.description}</ProjectDescription>
               <Label>Responsive</Label>
-              <ProjectDescription>{item.responsive}</ProjectDescription>
+              <Responsive>{item.responsive}</Responsive>
 
               <ButtonWrapper>
                 {item.link && (
@@ -100,6 +100,20 @@ const ProjectDescription = styled.p`
   margin-top: 10px;
   font-family: "Poppins";
   opacity: 0.6;
+  height: 370px;
+  @media (min-width: 950px) {
+    width: 790px;
+    height: 150px;
+  }
+`;
+const Responsive = styled.p`
+  color: #5f9ea0;
+  width: 320px;
+  font-size: 19px;
+  margin-top: 10px;
+  font-family: "Poppins";
+  opacity: 0.6;
+
   @media (min-width: 950px) {
     width: 790px;
   }

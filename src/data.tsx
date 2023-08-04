@@ -220,7 +220,7 @@ export const data = [
     responsive: "Yes",
   },
   {
-    title: "Native Authentication",
+    title: "Native Auth",
     image: image21,
     description:
       "Native Authentication with Token refers to the process of implementing user authentication in a mobile app using native authentication methods, such as biometric authentication fingerprint or face recognition, in combination with the usage of tokens for secure user sessions. This approach enhances both the security and user experience of the application",

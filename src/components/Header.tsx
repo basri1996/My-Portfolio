@@ -84,7 +84,7 @@ function Header() {
 export default Header;
 const Menu = styled.div<{ visible: boolean }>`
   width: 100%;
-  height: 300px;
+  height: 0px;
   background-color: #ffffb5;
   background-image: linear-gradient(315deg, #ffffb5 0%, #247ba0 74%);
   position: absolute;
@@ -95,7 +95,9 @@ const Menu = styled.div<{ visible: boolean }>`
   align-items: center;
   flex-direction: column;
   gap: 10px;
-
+  height: ${(props) => props.visible && "300px"};
+  transition: height 1s;
+  visibility: visible;
   @media (min-width: 850px) {
     display: none;
   }
@@ -133,6 +135,7 @@ const Logo = styled.div`
 const MainDiv = styled.div`
   width: 100%;
   height: 90px;
+
   background-color: #35a29f;
   display: flex;
   padding: 0 30px;

@@ -12,6 +12,7 @@
   "dependencies": {
     "@types/react-helmet": "^6.1.6",
     "axios": "^1.4.0",
+    "framer-motion": "^10.15.0",
     "hash-router": "^0.4.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
