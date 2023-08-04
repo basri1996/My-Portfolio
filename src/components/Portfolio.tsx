@@ -159,7 +159,7 @@ const ProjectTitleHeader = styled.h3`
   letter-spacing: 1px;
   padding: 15px;
   font-family: "Poppins";
-  box-shadow: 30px 30px 30px 30px rgba(0, 0, 0, 0.1);
+  box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.1);
   margin-top: 20px;
   @media (min-width: 950px) {
     font-size: 50px;

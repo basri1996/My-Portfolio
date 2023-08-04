@@ -10,7 +10,7 @@ function Card() {
           <Infos>Surname: Basiladze</Infos>
           <Infos>Birthday: 1996/09/16</Infos>
           <Infos>Number: 571554747</Infos>
-          <Infos>Mail: datuni32@gmail.com</Infos>
+          <Infos>Email: datuni32@gmail.com</Infos>
         </MainInfo>
       </LeftDiv>
       <RightDiv>
@@ -73,13 +73,13 @@ const Image = styled.img`
   }
 `;
 const LeftDiv = styled.div`
-  width: 300px;
+  width: 360px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   @media (min-width: 768px) {
-    width: 50%;
+    width: 600px;
   }
 `;
 const RightDiv = styled.div`
@@ -90,6 +90,9 @@ const RightDiv = styled.div`
   align-items: center;
   gap: 15px;
   @media (min-width: 768px) {
+    width: 350px;
+  }
+  @media (min-width: 1100px) {
     width: 50%;
   }
 `;
