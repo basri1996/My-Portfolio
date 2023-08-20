@@ -22,8 +22,29 @@ import image21 from "./assets/images/native-authentication.png";
 import image22 from "./assets/images/native-game.png";
 import image23 from "./assets/images/navigation.png";
 import image24 from "./assets/images/clock.png";
+import image25 from "./assets/images/auto.png";
 
 export const data = [
+  {
+    title: "Myauto Search",
+    image: image25,
+    description:
+      "MyAuto Search Bar made in ReactJS is a user interface component that provides a search input field with dynamic auto-suggest functionality. It allows users to type in a search query and displays relevant search suggestions in real-time as the user types.Overall, the MyAuto Search Bar component aims to improve user experience by making the search process more efficient and user-friendly, helping users quickly find relevant information related to automobiles",
+    link: "https://exquisite-cactus-f79def.netlify.app/",
+    language: "React Js",
+    gitHubLink: "https://github1s.com/basri1996/My-Auto",
+    responsive: "Yes",
+  },
+  {
+    title: "Audiophile",
+    image: image3,
+    description:
+      "Audiophile is your ultimate premium audio destination,meticulously crafted with React.js. This e-commerce web application invites you to explore a curated selection of top-notch headphones,earphones, and speakers from renowned brands. With a seamless shopping experience, we aim to enhance your passion for exceptional sound quality and design.",
+    link: "https://rococo-pie-88e885.netlify.app/",
+    language: "React Js",
+    gitHubLink: "https://github1s.com/basri1996/Audiophile",
+    responsive: "Yes",
+  },
   {
     title: "CommentPage",
     image: image1,
@@ -45,24 +66,34 @@ export const data = [
     responsive: "No",
   },
   {
-    title: "Audiophile",
-    image: image3,
+    title: "Clock Project",
+    image: image24,
     description:
-      "Audiophile is your ultimate premium audio destination,meticulously crafted with React.js. This e-commerce web application invites you to explore a curated selection of top-notch headphones,earphones, and speakers from renowned brands. With a seamless shopping experience, we aim to enhance your passion for exceptional sound quality and design.",
-    link: "https://rococo-pie-88e885.netlify.app/",
+      "The Time Zone Clock with Date Information is a web application built using React.js that displays real-time information about the current time in different time zones, along with additional date-related details. This project serves as a useful tool for users who need to keep track of time across various locations and stay informed about the corresponding dates.",
+    link: "https://genuine-longma-03caf2.netlify.app/",
     language: "React Js",
-    gitHubLink: "https://github1s.com/basri1996/Audiophile",
-    responsive: "Yes",
+    gitHubLink: "https://github1s.com/basri1996/Clock-React",
+    responsive: "No",
   },
   {
-    title: "Dice Roll",
-    image: image4,
+    title: "React Js Calculator",
+    image: image16,
     description:
-      "Introducing Dice Duel, a thrilling JavaScript project! Set a winning score and face off with a friend. Roll virtual dice, hold or risk rolling again, but beware of rolling ones! Strategize for maximum points. Enjoy this two-player game on desktop and mobile.Get ready for nostalgic fun and exciting gameplay! Let the dice decide your fate!",
-    link: "https://effulgent-tulumba-f28ce1.netlify.app/",
-    language: "JavaScript",
-    gitHubLink: "https://github1s.com/basri1996/dice",
+      "The ReactJS Tip Calculator is a user-friendly web application designed to streamline the process of calculating tips for services, whether it's at a restaurant, cafe, or any other place where tipping is customary. With its intuitive interface and real-time calculations, this project aims to provide a seamless experience for users while determining appropriate gratuity amounts.",
+    link: "https://stellar-beignet-c6df43.netlify.app",
+    language: "React Js",
+    gitHubLink: "https://github1s.com/basri1996/ReactJs-Calc",
     responsive: "No",
+  },
+  {
+    title: "PhotoSnap",
+    image: image11,
+    description:
+      "PhotoSnap is a comprehensive online platform that serves as your ultimate photography hub, catering to both photography enthusiasts and professionals alike. With its sleek and user-friendly interface, PhotoSnap offers a wide array of features and functionalities designed to meet all your photography needs.The heart of PhotoSnap lies within its extensive Gallery",
+    link: "https://voluble-crumble-41937d.netlify.app",
+    language: "React Js",
+    gitHubLink: "https://github1s.com/basri1996/PhotoSnap-React",
+    responsive: "Yes",
   },
   {
     title: "Form Hook",
@@ -84,6 +115,17 @@ export const data = [
     gitHubLink: "https://github1s.com/basri1996/Bank-Card",
     responsive: "No",
   },
+  {
+    title: "Dice Roll",
+    image: image4,
+    description:
+      "Introducing Dice Duel, a thrilling JavaScript project! Set a winning score and face off with a friend. Roll virtual dice, hold or risk rolling again, but beware of rolling ones! Strategize for maximum points. Enjoy this two-player game on desktop and mobile.Get ready for nostalgic fun and exciting gameplay! Let the dice decide your fate!",
+    link: "https://effulgent-tulumba-f28ce1.netlify.app/",
+    language: "JavaScript",
+    gitHubLink: "https://github1s.com/basri1996/dice",
+    responsive: "No",
+  },
+
   {
     title: "Todo List",
     image: image7,
@@ -124,16 +166,7 @@ export const data = [
     gitHubLink: "https://github1s.com/basri1996/Preview-Card",
     responsive: "Yes",
   },
-  {
-    title: "Clock Project",
-    image: image24,
-    description:
-      "The Time Zone Clock with Date Information is a web application built using React.js that displays real-time information about the current time in different time zones, along with additional date-related details. This project serves as a useful tool for users who need to keep track of time across various locations and stay informed about the corresponding dates.",
-    link: "https://genuine-longma-03caf2.netlify.app/",
-    language: "React Js",
-    gitHubLink: "https://github1s.com/basri1996/Clock-React",
-    responsive: "No",
-  },
+
   {
     title: "Guess Number",
     image: image14,
@@ -164,26 +197,7 @@ export const data = [
     gitHubLink: "https://github1s.com/basri1996/Calculator-Js",
     responsive: "No",
   },
-  {
-    title: "React Js Calculator",
-    image: image16,
-    description:
-      "The ReactJS Tip Calculator is a user-friendly web application designed to streamline the process of calculating tips for services, whether it's at a restaurant, cafe, or any other place where tipping is customary. With its intuitive interface and real-time calculations, this project aims to provide a seamless experience for users while determining appropriate gratuity amounts.",
-    link: "https://stellar-beignet-c6df43.netlify.app",
-    language: "React Js",
-    gitHubLink: "https://github1s.com/basri1996/ReactJs-Calc",
-    responsive: "No",
-  },
-  {
-    title: "PhotoSnap",
-    image: image11,
-    description:
-      "PhotoSnap is a comprehensive online platform that serves as your ultimate photography hub, catering to both photography enthusiasts and professionals alike. With its sleek and user-friendly interface, PhotoSnap offers a wide array of features and functionalities designed to meet all your photography needs.The heart of PhotoSnap lies within its extensive Gallery",
-    link: "https://voluble-crumble-41937d.netlify.app",
-    language: "React Js",
-    gitHubLink: "https://github1s.com/basri1996/PhotoSnap-React",
-    responsive: "Yes",
-  },
+
   {
     title: "Movie Stage",
     image: image12,
