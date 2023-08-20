@@ -116,6 +116,16 @@ export const data = [
     responsive: "No",
   },
   {
+    title: "Preview Card",
+    image: image10,
+    description:
+      "Step into the world of React JS with our captivating Preview Card! Discover the power of this cutting-edge technology as it elegantly displays information in a visually appealing manner. Featuring a sleek and modern design, the Preview Card effortlessly showcases key details.the card's responsive layout ensures seamless viewing on any device.",
+    link: "https://eclectic-caramel-4e9510.netlify.app/",
+    language: "React Js",
+    gitHubLink: "https://github1s.com/basri1996/Preview-Card",
+    responsive: "Yes",
+  },
+  {
     title: "Dice Roll",
     image: image4,
     description:
@@ -154,16 +164,6 @@ export const data = [
     link: "https://wondrous-tarsier-109306.netlify.app/",
     language: "JavaScript",
     gitHubLink: "https://github1s.com/basri1996/Omni-Food",
-    responsive: "Yes",
-  },
-  {
-    title: "Preview Card",
-    image: image10,
-    description:
-      "Step into the world of React JS with our captivating Preview Card! Discover the power of this cutting-edge technology as it elegantly displays information in a visually appealing manner. Featuring a sleek and modern design, the Preview Card effortlessly showcases key details.the card's responsive layout ensures seamless viewing on any device.",
-    link: "https://eclectic-caramel-4e9510.netlify.app/",
-    language: "React Js",
-    gitHubLink: "https://github1s.com/basri1996/Preview-Card",
     responsive: "Yes",
   },
 
