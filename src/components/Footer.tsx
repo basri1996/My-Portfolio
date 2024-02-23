@@ -10,16 +10,16 @@ function Footer() {
     <MainDiv>
       <WrapperDiv>
         <FacebookLogo
-          href="https://www.facebook.com/datuni.basiladze/"
+          href="https://www.facebook.com/luka.khutsidze"
           target="_blank"
         />
         <InstagramLogo
-          href="https://www.instagram.com/bdaviti"
+          href="https://www.instagram.com/lukakhutsidze/"
           target="_blank"
         />
-        <GithubLogo href="https://github.com/basri1996" target="_blank" />
+        <GithubLogo href="https://github.com/lukak1997" target="_blank" />
         <LinkedinLogo
-          href="https://www.linkedin.com/in/daviti-basiladze-6aa3b0285/"
+          href="https://www.linkedin.com/in/luka-khutsidze-202b44293/"
           target="_blank"
         />
       </WrapperDiv>

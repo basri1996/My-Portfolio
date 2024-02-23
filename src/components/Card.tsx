@@ -1,22 +1,23 @@
 import styled from "styled-components";
-import profilePhoto from "../assets/images/363068898_1488136471924576_8146566858769457486_n.jpg";
+import img from "../assets/images/lukisha.jpg";
+
 function Card() {
   return (
     <MainDiv>
       <LeftDiv>
-        <Image src={profilePhoto} />
+        <Image src={img} />
         <MainInfo>
-          <Infos>Name: Daviti</Infos>
-          <Infos>Surname: Basiladze</Infos>
-          <Infos>Birthday: 1996/09/16</Infos>
-          <Infos>Number: 571554747</Infos>
-          <Infos>Email: datuni32@gmail.com</Infos>
+          <Infos>Name: Luka</Infos>
+          <Infos>Surname: Khutsidze</Infos>
+          <Infos>Birthday: 1997/08/24</Infos>
+          <Infos>Number: 443-788-8838</Infos>
+          <Infos>Email: khutsidzeluka@gmail.com</Infos>
         </MainInfo>
       </LeftDiv>
       <RightDiv>
         <Title>About Me </Title>
         <Description>
-          Hello there! I'm Daviti, a skilled and passionate ReactJS and React
+          Hello there! I'm Luka, a skilled and passionate ReactJS and React
           Native developer, I bring a wealth of experience and knowledge in
           building robust and efficient web and mobile applications. My
           expertise extends to various web technologies, including TypeScript,
@@ -64,11 +65,11 @@ const MainDiv = styled.div`
 
 const Image = styled.img`
   width: 200px;
-  height: 250px;
+  height: 200px;
   border-radius: 50%;
   @media (min-width: 768px) {
     width: 400px;
-    height: 450px;
+    height: 400px;
     border-radius: 50%;
   }
 `;
